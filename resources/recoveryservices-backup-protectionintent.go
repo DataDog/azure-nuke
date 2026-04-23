@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/recoveryservices/armrecoveryservices"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/recoveryservices/armrecoveryservicesbackup"
+	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/recoveryservices/armrecoveryservicesbackup/v4"
 	"github.com/Azure/go-autorest/autorest/to"
 
 	"github.com/ekristen/libnuke/pkg/registry"
